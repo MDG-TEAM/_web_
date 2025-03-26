@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom right, red, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 80%;
+    padding: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+p {
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
